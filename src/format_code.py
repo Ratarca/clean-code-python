@@ -3,6 +3,10 @@ Notes about clean code.
  - Format name variables, functions and class
  - Function struct to clean code
     {Typing / Docstring / }
+
+Some bibliography
+- https://stackoverflow.com/questions/472000/usage-of-slots
+
 """
 
 import traceback, sys, logging
@@ -20,7 +24,6 @@ def function_sum(firstVal:int, secondVal:int) -> int:
     except Exception as Err:
         logging.error(f"Error into :\n {function_sum.__name__} | \n | {traceback.format_exc()}")
 
-# https://stackoverflow.com/questions/472000/usage-of-slots
 
 class MyClassName():
     __slots__ = ['nothing']

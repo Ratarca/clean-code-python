@@ -1,5 +1,4 @@
-# clean-code-python
-Notes about clean code using python.
+# Clean code w/ python :snake:
 
 | Topic  | Link | Status
 | ------------- | ------------- |------------- |
